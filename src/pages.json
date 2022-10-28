@@ -1,0 +1,39 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/fruits/fruits"
+		},
+		{
+			"path": "pages/home/home"
+		},
+		{
+			"path": "pages/scan/scan"
+		}
+	],
+	"globalStyle": {
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"app-plus": {
+		"titleNView": false
+	},
+	"tabBar": {
+		"color": "#000000",
+        "backgroundColor": "#ffffff",
+		"height": "98px",
+		"iconWidth": "60px",
+		"fontSize": "20px",
+        "list": [{
+            "pagePath": "pages/fruits/fruits",
+            "text": "水果",
+			"iconPath": "static/images/fruits.svg"
+        },{
+            "pagePath": "pages/home/home",
+            "text": "我的",
+			"iconPath": "static/images/home.svg"
+        }]
+	}
+}
