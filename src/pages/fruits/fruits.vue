@@ -51,13 +51,16 @@ export default {
             showModal: false,
             time: 10,
             stage: "幼苗生长期",
-            sunlight: "1",
-            raindrop: "1",
-            temp: "1"
+            sunlight: "-",
+            raindrop: "-",
+            temp: "-"
         }
     },
     onLoad() {
-
+        uni.$on('scanFinished', this.update)
+    },
+    onUnload() {
+        uni.$off('scanFinished', this.update)
     },
     methods: {
         showHint() {
@@ -86,7 +89,29 @@ export default {
             this.hideModal();
             uni.navigateTo({
                 url: url,
-            })
+            });
+        },
+
+        update(data) {
+            console.log(data.label);
+            if (data.label == "凉爽" ||
+                data.label == "寒冷" ||
+                data.label == "适宜" ||
+                data.label == "炎热") {
+                this.temp = data.label;
+            }
+            if (data.label == "少量" ||
+                data.label == "中等" ||
+                data.label == "较多" ||
+                data.label == "特多") {
+                this.raindrop = data.label;
+            }
+            if (data.label == "短日照" ||
+                data.label == "中日照" ||
+                data.label == "较长日照" ||
+                data.label == "长日照") {
+                this.sunlight = data.label;
+            }
         }
     }
 }
@@ -102,7 +127,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
 .status_v {
@@ -186,7 +211,7 @@ export default {
 }
 
 .status .attributes view {
-    margin-right: 30px;
+    margin-right: 10px;
     margin-top: 4px;
     width: 62.72px;
     height: 63px;
@@ -209,7 +234,7 @@ export default {
 
 .status .attributes text {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'PingFang SC';
     text-align: center;
     color: #303030;
