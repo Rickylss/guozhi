@@ -12,7 +12,6 @@ export default {
     name: "App",
     data() {
         return {
-            modelUrl: "https://teachablemachine.withgoogle.com/models/HKOaqhg7w/",
             label: 'Loading...'
         }
     },
@@ -33,7 +32,7 @@ export default {
                 video = s.createCapture(s.VIDEO);
                 video.size(750, 600);
                 video.hide();
-                classifier = ml5.imageClassifier(that.modelUrl + "model.json", video, modelReady);
+                classifier = ml5.imageClassifier("/static/model/model.json", video, modelReady);
             };
 
             s.draw = function () {
