@@ -47,7 +47,7 @@ export default {
 	width: 100%;
 	height: 550px;
 	display: flex;
-	background-image: url("/static/images/startbg.svg");
+	background-image: url("/static/images/startbg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -87,7 +87,7 @@ export default {
 	font-style: normal;
 	font-size: 18px;
 	color: #ffffff;
-	background-image: url("/static/images/group.svg");
+	background-image: url("/static/images/group.png");
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: cover;

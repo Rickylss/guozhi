@@ -121,7 +121,7 @@ export default {
 .content {
     width: 376px;
     height: 812px;
-    background-image: url('/static/images/bg.svg');
+    background-image: url('/static/images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -160,7 +160,7 @@ export default {
     margin-left: 8px;
     border-radius: 48px;
     background-color: transparent;
-    background-image: url("/static/images/Coin.svg");
+    background-image: url("/static/images/Coin.png");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 8000;
@@ -221,15 +221,15 @@ export default {
 }
 
 .status .attributes .sunlight {
-    background-image: url("/static/images/sunlight.svg");
+    background-image: url("/static/images/sunlight.png");
 }
 
 .status .attributes .raindrop {
-    background-image: url("/static/images/raindrop.svg");
+    background-image: url("/static/images/raindrop.png");
 }
 
 .status .attributes .temp {
-    background-image: url("/static/images/temp.svg");
+    background-image: url("/static/images/temp.png");
 }
 
 .status .attributes text {
@@ -251,11 +251,11 @@ export default {
 }
 
 .screen_shot {
-    background-image: url("/static/images/screen-shot.svg");
+    background-image: url("/static/images/screen-shot.png");
 }
 
 .hint {
-    background-image: url("/static/images/hint.svg");
+    background-image: url("/static/images/hint.png");
 }
 
 .message {
@@ -279,7 +279,7 @@ export default {
 .start_button {
     width: 126px;
     height: 46px;
-    background-image: url("/static/images/Play%20Button.svg");
+    background-image: url("/static/images/Play%20Button.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -322,7 +322,7 @@ export default {
 .modal_c .modal_dlg {
     width: 334px;
     height: 444px;
-    background-image: url("/static/images/Popup.svg");
+    background-image: url("/static/images/Popup.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -357,7 +357,7 @@ export default {
     width: 232px;
     height: 186px;
     margin-top: 18px;
-    background-image: url("/static/images/sample.svg");
+    background-image: url("/static/images/sample.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -366,7 +366,7 @@ export default {
     width: 126px;
     height: 46px;
     margin-top: 18px;
-    background-image: url("/static/images/Play%20Button.svg");
+    background-image: url("/static/images/Play%20Button.png");
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -385,7 +385,7 @@ export default {
     width: 52px;
     height: 52px;
     border-radius: 52px;
-    background-image: url("/static/images/close.svg");
+    background-image: url("/static/images/close.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;

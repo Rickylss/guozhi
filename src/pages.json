@@ -29,11 +29,11 @@
         "list": [{
             "pagePath": "pages/fruits/fruits",
             "text": "水果",
-			"iconPath": "static/images/fruits.svg"
+			"iconPath": "static/images/fruits.png"
         },{
             "pagePath": "pages/home/home",
             "text": "我的",
-			"iconPath": "static/images/home.svg"
+			"iconPath": "static/images/home.png"
         }]
 	}
 }
