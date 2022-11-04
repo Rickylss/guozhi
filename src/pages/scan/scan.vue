@@ -28,9 +28,9 @@ export default {
             let classifier;
 
             s.setup = function () {
-                s.createCanvas(750, 600);
+                s.createCanvas(376, 812);
                 video = s.createCapture(s.VIDEO);
-                video.size(750, 600);
+                video.size(376, 812);
                 video.hide();
                 classifier = ml5.imageClassifier("/static/model/model.json", video, modelReady);
             };
@@ -42,7 +42,7 @@ export default {
                 s.textAlign(s.CENTER);
                 s.textFont('Georgia');
                 s.textSize(32);
-                s.text(that.label, 400, 580);
+                s.text(that.label, 184, 406);
             };
 
             function modelReady() {
@@ -66,8 +66,8 @@ export default {
 
 <style>
 #content {
-    width: 750px;
-    height: 1624px;
+    width: 376px;
+    height: 812px;
     padding: 0 0;
     display: flex;
     flex-direction: column;

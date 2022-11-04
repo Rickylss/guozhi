@@ -35,8 +35,8 @@ export default {
 
 <style>
 .content {
-	width: 750px;
-	height: 1624px;
+	width: 376px;
+	height: 812px;
 	padding: 0 0;
 	display: flex;
 	flex-direction: column;
@@ -45,7 +45,7 @@ export default {
 
 .background {
 	width: 100%;
-	height: 1098px;
+	height: 550px;
 	display: flex;
 	background-image: url("/static/images/startbg.svg");
 	background-repeat: no-repeat;
@@ -54,7 +54,7 @@ export default {
 
 .start {
 	width: 100%;
-	height: 526px;
+	height: 264px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -66,7 +66,7 @@ export default {
 	font-family: 'PingFang SC';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 24px;
 	color: #303030;
 }
 
@@ -74,18 +74,18 @@ export default {
 	font-family: 'PingFang SC';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 32px;
+	font-size: 16px;
 	color: #303030;
 }
 
 .start_button {
-	margin-top: 7vh;
-	width: 534.38px;
-	height: 92px;
+	margin-top: 3.5vh;
+	width: 266px;
+	height: 46px;
 	font-weight: 700;
 	font-family: 'PingFang SC';
 	font-style: normal;
-	font-size: 36px;
+	font-size: 18px;
 	color: #ffffff;
 	background-image: url("/static/images/group.svg");
 	background-color: transparent;

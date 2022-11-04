@@ -23,9 +23,9 @@
 	"tabBar": {
 		"color": "#000000",
         "backgroundColor": "#ffffff",
-		"height": "98px",
-		"iconWidth": "60px",
-		"fontSize": "20px",
+		"height": "48px",
+		"iconWidth": "30px",
+		"fontSize": "10px",
         "list": [{
             "pagePath": "pages/fruits/fruits",
             "text": "水果",

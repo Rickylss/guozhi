@@ -119,8 +119,8 @@ export default {
 
 <style>
 .content {
-    width: 750px;
-    height: 1624px;
+    width: 376px;
+    height: 812px;
     background-image: url('/static/images/bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,11 +154,11 @@ export default {
 }
 
 .stage .coin {
-    width: 96.4px;
-    height: 94px;
-    margin-top: 97px;
-    margin-left: 17px;
-    border-radius: 96px;
+    width: 48px;
+    height: 46px;
+    margin-top: 48px;
+    margin-left: 8px;
+    border-radius: 48px;
     background-color: transparent;
     background-image: url("/static/images/Coin.svg");
     background-repeat: no-repeat;
@@ -168,33 +168,33 @@ export default {
 
 .stage .box {
     position: absolute;
-    left: 34px;
-    top: 110px;
-    width: 220px;
-    height: 64px;
+    left: 17px;
+    top: 56px;
+    width: 110px;
+    height: 32px;
     background-color: #ffffff;
-    border-radius: 31.5px;
+    border-radius: 16px;
     z-index: 7000;
 }
 
 .stage .box text {
     position: relative;
-    left: 80px;
+    left: 40px;
     font-family: 'PingFang SC';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
-    line-height: 64px;
+    line-height: 32px;
     color: #227391;
 }
 
 .status {
-    margin-top: 110px;
-    margin-right: 24px;
-    width: 420px;
-    height: 67px;
-    border-radius: 47px;
+    margin-top: 56px;
+    margin-right: 12px;
+    width: 210px;
+    height: 34px;
+    border-radius: 28px;
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -203,7 +203,7 @@ export default {
 }
 
 .status .attributes {
-    margin-right: 24px;
+    margin-right: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -211,10 +211,10 @@ export default {
 }
 
 .status .attributes view {
-    margin-right: 10px;
-    margin-top: 4px;
-    width: 62.72px;
-    height: 63px;
+    margin-right: 6px;
+    margin-top: 2px;
+    width: 32px;
+    height: 32px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -234,19 +234,20 @@ export default {
 
 .status .attributes text {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 10px;
     font-family: 'PingFang SC';
     text-align: center;
     color: #303030;
 }
 
 .status_v button {
-    margin-right: 24px;
-    margin-top: 16px;
+    margin-right: 12px;
+    margin-top: 8px;
     background-color: transparent;
-    border-radius: 76px;
-    width: 76px;
-    height: 76px;
+    background-size: cover;
+    border-radius: 38px;
+    width: 38px;
+    height: 38px;
 }
 
 .screen_shot {
@@ -258,12 +259,12 @@ export default {
 }
 
 .message {
-    margin-right: 24px;
-    margin-top: 16px;
+    margin-right: 12px;
+    margin-top: 8px;
     background: rgba(103, 103, 103, 0.5);
-    width: 498px;
-    height: 84px;
-    border-radius: 16px;
+    width: 248px;
+    height: 42px;
+    border-radius: 8px;
     align-self: flex-end;
     display: flex;
     align-items: center;
@@ -271,27 +272,27 @@ export default {
     font-family: 'PingFang SC';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 14px;
     color: #ffffff;
 }
 
 .start_button {
-    width: 252px;
-    height: 92px;
+    width: 126px;
+    height: 46px;
     background-image: url("/static/images/Play%20Button.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
-    border-radius: 100px;
+    border-radius: 50px;
     font-family: 'PingFang SC';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    margin-bottom: 226px;
+    margin-bottom: 112px;
 }
 
 .mask {
@@ -307,10 +308,10 @@ export default {
 
 .modal_c {
     position: fixed;
-    width: 668px;
-    height: 1200px;
-    top: 280px;
-    left: 41px;
+    width: 334px;
+    height: 600px;
+    top: 140px;
+    left: 20px;
     z-index: 9999;
     display: flex;
     flex-direction: column;
@@ -319,8 +320,8 @@ export default {
 }
 
 .modal_c .modal_dlg {
-    width: 668px;
-    height: 888px;
+    width: 334px;
+    height: 444px;
     background-image: url("/static/images/Popup.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,40 +332,40 @@ export default {
 }
 
 .modal_dlg .text1 {
-    margin-top: 164px;
+    margin-top: 82px;
     font-family: 'PingFang SC';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 14px;
     text-align: center;
     color: #333333;
 }
 
 .modal_c .text2 {
-    margin-top: 7px;
-    width: 503px;
-    height: 68px;
+    margin-top: 4px;
+    width: 250px;
+    height: 34px;
     font-family: 'PingFang SC';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 12px;
     color: #666666;
     opacity: 0.77;
 }
 
 .modal_dlg view {
-    width: 464px;
-    height: 371px;
-    margin-top: 35px;
+    width: 232px;
+    height: 186px;
+    margin-top: 18px;
     background-image: url("/static/images/sample.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .modal_dlg button {
-    width: 252px;
-    height: 92px;
-    margin-top: 36px;
+    width: 126px;
+    height: 46px;
+    margin-top: 18px;
     background-image: url("/static/images/Play%20Button.svg");
     background-color: transparent;
     background-repeat: no-repeat;
@@ -375,19 +376,19 @@ export default {
     font-family: 'PingFang SC';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 16px;
     color: #ffffff;
     border-radius: 100px;
 }
 
 .modal_c .modal_cancel {
-    width: 106px;
-    height: 106px;
-    border-radius: 106px;
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
     background-image: url("/static/images/close.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
-    margin-top: 21px;
+    margin-top: 10px;
 }
 </style>
