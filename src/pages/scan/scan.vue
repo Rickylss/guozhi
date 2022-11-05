@@ -32,7 +32,7 @@ export default {
                 video = s.createCapture(s.VIDEO);
                 video.size(376, 812);
                 video.hide();
-                classifier = ml5.imageClassifier("/static/model/model.json", video, modelReady);
+                classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/hkoaqhg7w/model.json", video, modelReady);
             };
 
             s.draw = function () {
